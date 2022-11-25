@@ -1,5 +1,5 @@
 // 1 - Chiedere all'utente il numero di kilometri che vuole percorrere
-let km = prompt("Indicare il numero di kilometri che si vuole percorrere");
+let km = parseInt(prompt("Indicare il numero di kilometri che si vuole percorrere"));
 console.log("Km:" + km);
 document.getElementById('km').innerHTML = km;
 
